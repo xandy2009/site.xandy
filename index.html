@@ -1,177 +1,137 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-    <title>Street Holy</title>
-    <meta name="description" content="Street Holy - Moda urbana com atitude e estilo.">
-    
-    <!-- Google Fonts -->
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
-    
-    <!-- Font Awesome -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"/>
-    
-    <!-- CSS -->
-    <link rel="stylesheet" href="index.css "/>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Street Holy ® | Streetwear com Alma</title>
+  <link href="https://www.google.com/url?sa=i&url=https%3A%2F%2Fbrasilescola.uol.com.br%2Fartes%2Fgrafite.htm&psig=AOvVaw3ZvFCeMS0vkAMWU6jqyJcg&ust=1763550111499000&source=images&cd=vfe&opi=89978449&ved=0CBUQjRxqFwoTCKD_kqHG-5ADFQAAAAAdAAAAABAE" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-    <!-- Hamburger Button -->
-    <button class="hamburger" id="hamburger">
-        <span></span>
-        <span></span>
-        <span></span>
-    </button>
-    
-    <!-- Sidebar -->
-    <aside class="sidebar" id="sidebar">
-        <div class="sidebar-header">
-            <a href="#" class="logo">
-                <i class="fas fa-cross"></i>
-                Street Holy
-            </a>
-            <button class="close-btn" id="closeBtn">
-                <i class="fas fa-times"></i>
-            </button>
-        </div>
-        
-        <nav>
-            <ul class="nav-menu">
-                <li class="nav-item">
-                    <a href="#" class="nav-link active">
-                        <i class="fas fa-home"></i>
-                        <span>Início</span>
-                    </a>
-                </li>
-                <li class="nav-item">
-                    <a href="#" class="nav-link">
-                        <i class="fas fa-shopping-bag"></i>
-                        <span>Compras</span>
-                    </a>
-                </li>
-                <li class="nav-item">
-                    <a href="#" class="nav-link">
-                        <i class="fas fa-tshirt"></i>
-                        <span>Coleções</span>
-                    </a>
-                </li>
-                <li class="nav-item">
-                    <a href="#" class="nav-link">
-                        <i class="fas fa-star"></i>
-                        <span>Destaques</span>
-                    </a>
-                </li>
-                <li class="nav-item">
-                    <a href="#" class="nav-link">
-                        <i class="fas fa-user"></i>
-                        <span>Minha Conta</span>
-                    </a>
-                </li>
-                <li class="nav-item">
-                    <a href="#" class="nav-link">
-                        <i class="fas fa-headset"></i>
-                        <span>Suporte</span>
-                    </a>
-                </li>
-            </ul>
-        </nav>
-    </aside>
-    
-    <!-- Overlay -->
-    <div class="overlay" id="overlay"></div>
-    
-    <!-- Main Content -->
-    <main class="main-content">
-        <div class="container">
-            <!-- Header -->
-            <header class="header">
-                <h1>Street Holy</h1>
-                <p>Moda urbana com alma. Estilo que transcende, atitude que inspira.</p>
-            </header>
-            
-            <!-- Products Grid -->
-            <section class="cards-grid">
-                <article class="card">
-                    <div class="card-img"></div>
-                    <div class="card-body">
-                        <h3 class="card-title">Holy Cross Tee</h3>
-                        <p class="card-text">Camiseta premium em algodão orgânico com estampa exclusiva.</p>
-                        <div class="card-price">R$ 149,90</div>
-                        <button class="btn">Adicionar ao Carrinho</button>
-                    </div>
-                </article>
-                
-                <article class="card">
-                    <div class="card-img"></div>
-                    <div class="card-body">
-                        <h3 class="card-title">Urban Saint Hoodie</h3>
-                        <p class="card-text">Moletom oversize com capuz e detalhes refletivos.</p>
-                        <div class="card-price">R$ 289,90</div>
-                        <button class="btn">Adicionar ao Carrinho</button>
-                    </div>
-                </article>
-                
-                <article class="card">
-                    <div class="card-img"></div>
-                    <div class="card-body">
-                        <h3 class="card-title">Divine Denim</h3>
-                        <p class="card-text">Calça jeans destroyed com lavagem premium e patches.</p>
-                        <div class="card-price">R$ 399,90</div>
-                        <button class="btn">Adicionar ao Carrinho</button>
-                    </div>
-                </article>
-                
-                <article class="card">
-                    <div class="card-img"></div>
-                    <div class="card-body">
-                        <h3 class="card-title">Angel Wings Cap</h3>
-                        <p class="card-text">Boné trucker com bordado 3D e ajuste perfeito.</p>
-                        <div class="card-price">R$ 99,90</div>
-                        <button class="btn">Adicionar ao Carrinho</button>
-                    </div>
-                </article>
-                
-                <article class="card">
-                    <div class="card-img"></div>
-                    <div class="card-body">
-                        <h3 class="card-title">Sacred Sneakers</h3>
-                        <p class="card-text">Tênis limited edition com solado glow-in-the-dark.</p>
-                        <div class="card-price">R$ 649,90</div>
-                        <button class="btn btn-outline">Ver Detalhes</button>
-                    </div>
-                </article>
-                
-                <article class="card">
-                    <div class="card-img"></div>
-                    <div class="card-body">
-                        <h3 class="card-title">Holy Chain</h3>
-                        <p class="card-text">Corrente em aço inoxidável com pingente cruzado.</p>
-                        <div class="card-price">R$ 179,90</div>
-                        <button class="btn">Comprar Agora</button>
-                    </div>
-                </article>
-            </section>
-            
-            <!-- CTA Section -->
-            <section class="cta-section">
-                <h2>Seja Parte da Revolução</h2>
-                <p>Junte-se à comunidade Street Holy e receba 15% OFF na sua primeira compra.</p>
-                <button class="btn large">
-                    <i class="fas fa-envelope"></i> Inscrever-se
-                </button>
-            </section>
-        </div>
-        
-        <!-- Footer -->
-        <footer class="footer">
-            <p>&copy; 2025 <a href="#">Street Holy</a>. Todos os direitos reservados.</p>
-            <p>
-                <a href="#">Termos</a> • <a href="#">Privacidade</a> • <a href="#">Contato</a>
-            </p>
-        </footer>
-    </main>
 
-    <!-- JavaScript -->
-    <script src="index.js"></script>
+  <header>
+    <nav>
+      <div class="logo">Street Holy</div>
+      <div class="menu-toggle" id="menuToggle">☰</div>
+      <div class="nav-links" id="navLinks">
+        <a href="#">Home</a>
+        <a href="#">Produtos</a>
+        <a href="#">Login</a>
+      </div>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <h1>STREET HOLY</h1>
+    <p>Aqui voçê encontra roupas do seu estilo 🤑</p>
+  </section>
+
+  <section class="products">
+    <h2 class="section-title"></h2>
+    <div class="product-grid">
+      <div class="product-card">
+        <img src="https://acdn-us.mitiendanube.com/stores/002/859/419/products/1-33eece3d95f8e29d0b17289640518980-1024-1024.webp" alt="Hoodie Holy Ghost">
+        <div class="product-info">
+          <h3>calça jeans baggy preta</h3>
+          <p class="price">R$ 189,90</p>
+        </div>
+      </div>
+      <div class="product-card">
+        <img src="https://acdn-us.mitiendanube.com/stores/002/859/419/products/1-21-c3be05f5a37a00f03416763883182976-1024-1024.webp" alt="Camiseta Purple Faith">
+        <div class="product-info">
+          <h3>jaqueta racer ferrari</h3>
+          <p class="price">R$ 299,90</p>
+        </div>
+      </div>
+      <div class="product-card">
+        <img src="https://images.tcdn.com.br/img/img_prod/703344/tenis_qix_skate_90s_og_preto_9372_3_960984d8cda533e31256e0587c617fe7.jpg" alt="Calça Cargo Blessed">
+        <div class="product-info">
+          <h3>Calça Cargo Blessed</h3>
+          <p class="price">R$ 399,90</p>
+        </div>
+      </div>
+
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Street Holy ® - Todos os direitos reservados.</p>
+    <div class="social">
+      <a href="#">Instagram</a>
+      <a href="#">Twitter</a>
+      <a href="#">TikTok</a>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html><!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Street Holy ® | Streetwear com Alma</title>
+  <link href="https://www.google.com/url?sa=i&url=https%3A%2F%2Fbrasilescola.uol.com.br%2Fartes%2Fgrafite.htm&psig=AOvVaw3ZvFCeMS0vkAMWU6jqyJcg&ust=1763550111499000&source=images&cd=vfe&opi=89978449&ved=0CBUQjRxqFwoTCKD_kqHG-5ADFQAAAAAdAAAAABAE" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <header>
+    <nav>
+      <div class="logo">Street Holy</div>
+      <div class="menu-toggle" id="menuToggle">☰</div>
+      <div class="nav-links" id="navLinks">
+        <a href="#">Home</a>
+        <a href="#">Produtos</a>
+        <a href="#">Login</a>
+      </div>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <h1>STREET HOLY</h1>
+    <p>Aqui voçê encontra roupas do seu estilo 🤑</p>
+  </section>
+
+  <section class="products">
+    <h2 class="section-title"></h2>
+    <div class="product-grid">
+      <div class="product-card">
+        <img src="https://acdn-us.mitiendanube.com/stores/002/859/419/products/1-33eece3d95f8e29d0b17289640518980-1024-1024.webp" alt="Hoodie Holy Ghost">
+        <div class="product-info">
+          <h3>calça jeans baggy preta</h3>
+          <p class="price">R$ 189,90</p>
+        </div>
+      </div>
+      <div class="product-card">
+        <img src="https://acdn-us.mitiendanube.com/stores/002/859/419/products/1-21-c3be05f5a37a00f03416763883182976-1024-1024.webp" alt="Camiseta Purple Faith">
+        <div class="product-info">
+          <h3>jaqueta racer ferrari</h3>
+          <p class="price">R$ 299,90</p>
+        </div>
+      </div>
+      <div class="product-card">
+        <img src="https://images.tcdn.com.br/img/img_prod/703344/tenis_qix_skate_90s_og_preto_9372_3_960984d8cda533e31256e0587c617fe7.jpg" alt="Calça Cargo Blessed">
+        <div class="product-info">
+          <h3>Calça Cargo Blessed</h3>
+          <p class="price">R$ 399,90</p>
+        </div>
+      </div>
+
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Street Holy ® - Todos os direitos reservados.</p>
+    <div class="social">
+      <a href="#">Instagram</a>
+      <a href="#">Twitter</a>
+      <a href="#">TikTok</a>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
 </body>
 </html>
