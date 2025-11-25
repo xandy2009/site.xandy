@@ -32,7 +32,7 @@ nav {
 }
 
 .logo {
-  font-family: 'Orbitron', sans-serif;
+  font-family: Stencil Std, fantasy;
   font-size: 2rem;
   color: var(--purple-neon);
   text-shadow: 0 0 10px var(--purple-neon);
@@ -76,10 +76,10 @@ nav {
 }
 
 .hero h1 {
-  font-family: 'Orbitron', sans-serif;
+  font-family:Stencil Std, fantasy;
   font-size: 5rem;
   color: var(--purple-neon);
-  text-shadow: 0 0 20px var(--purple-neon);
+  text-shadow: 0 0 30px var(--purple-neon);
   margin-bottom: 1rem;
 }
 
@@ -97,6 +97,7 @@ nav {
 .products {
   padding: 100px 5%;
   background-color: var(--purple-dark);
+  
 }
 
 .section-title {
@@ -113,14 +114,16 @@ nav {
   gap: 2rem;
   max-width: 1400px;
   margin: 0 auto;
+  
 }
 
 .product-card {
   background: rgba(75, 0, 130, 0.4);
-  border-radius: 15px;
+  border-radius: 20px;
   overflow: hidden;
   transition: transform 0.4s;
   text-align: center;
+  box-shadow: 0 0 12px var(--purple-neon);
 }
 
 .product-card:hover {
